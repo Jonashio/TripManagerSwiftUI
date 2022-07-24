@@ -6,10 +6,12 @@
 //
 
 import Foundation
+import SwiftUI
 
 // MARK: - TripModelElement
 struct TripModel: Codable {
-    let status: String?
+    let id = UUID()
+    let status: Status?
     let stops: [StopModel]?
     let origin: DestinationModel?
     let startTime, tripModelDescription, endTime, route: String?
@@ -21,6 +23,13 @@ struct TripModel: Codable {
         case tripModelDescription = "description"
         case endTime, route, destination, driverName
     }
+}
+
+enum Status: String, Codable {
+    case ongoing
+    case cancelled
+    case scheduled
+    case finalized
 }
 
 // MARK: - Destination
@@ -45,4 +54,4 @@ struct StopModel: Codable {
     let id: Int?
 }
 
-typealias TripsModel = [TripModel]
+typealias TripListModel = [TripModel]

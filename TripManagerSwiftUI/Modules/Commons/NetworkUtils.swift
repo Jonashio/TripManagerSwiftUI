@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 public enum NTError<U> {
     case emptyData
@@ -14,15 +15,17 @@ public enum NTError<U> {
     case unknown
 }
 
-
 public enum NTResult<T, U> {
     case success(T)
     case error(U)
 }
 
 public typealias NTResponse<Value> = ((NTResult<Value, NTError<Error>>) -> Void)
-public typealias NTParams = [String: String]
 
-protocol CommonDataSourceProtocol {
-    func fetchRequest<T:Codable>(params: NTParams, completion: @escaping NTResponse<T>)
+public enum MethodType: String {
+    case GET
+    case HEAD
+    case POST
+    case PUT
+    case DELETE
 }

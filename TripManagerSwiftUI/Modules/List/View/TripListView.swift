@@ -19,7 +19,16 @@ struct TripListView: View {
                     .frame(maxWidth: .infinity, maxHeight: 350)
                 
                 ScrollView(.vertical) {
-                    
+                    VStack(spacing: 0) {
+                        ForEach($viewModel.list, id: \.id) { trip in
+                            TripListViewCell(model: trip
+                            ) { model in
+                                print("Jonas estas pirntando la lista")
+                            }
+                            
+                            Divider()
+                        }
+                    }.frame(maxWidth: .infinity)
                 }.frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
@@ -27,7 +36,7 @@ struct TripListView: View {
         .edgesIgnoringSafeArea(.all)
         .onAppear() {
             viewModel.fetch() { response in
-                
+                print("Jona pintamos: \(response)")
             }
         }
     }

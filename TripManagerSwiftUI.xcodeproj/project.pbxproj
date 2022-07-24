@@ -21,6 +21,44 @@
 		A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB7E288D58F90080E7D7 /* TripListDataSource.swift */; };
 		A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */; };
 		A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */; };
+		A1F1FB87288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB86288D77CD0080E7D7 /* URLRequest+Extension.swift */; };
+		A1F1FB88288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB86288D77CD0080E7D7 /* URLRequest+Extension.swift */; };
+		A1F1FB8B288DA0240080E7D7 /* TripListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB8A288DA0240080E7D7 /* TripListViewCell.swift */; };
+		A1F1FB8C288DA0240080E7D7 /* TripListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB8A288DA0240080E7D7 /* TripListViewCell.swift */; };
+		A1F1FB8E288DA7AA0080E7D7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB8D288DA7AA0080E7D7 /* String+Extension.swift */; };
+		A1F1FB8F288DA7AA0080E7D7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB8D288DA7AA0080E7D7 /* String+Extension.swift */; };
+		A1F1FBA1288DAAB90080E7D7 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB93288DAAB90080E7D7 /* Muli-ExtraLight.ttf */; };
+		A1F1FBA2288DAAB90080E7D7 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB93288DAAB90080E7D7 /* Muli-ExtraLight.ttf */; };
+		A1F1FBA3288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB94288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf */; };
+		A1F1FBA4288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB94288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf */; };
+		A1F1FBA5288DAAB90080E7D7 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB95288DAAB90080E7D7 /* Muli-BoldItalic.ttf */; };
+		A1F1FBA6288DAAB90080E7D7 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB95288DAAB90080E7D7 /* Muli-BoldItalic.ttf */; };
+		A1F1FBA7288DAAB90080E7D7 /* Muli-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB96288DAAB90080E7D7 /* Muli-Black.ttf */; };
+		A1F1FBA8288DAAB90080E7D7 /* Muli-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB96288DAAB90080E7D7 /* Muli-Black.ttf */; };
+		A1F1FBA9288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB97288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf */; };
+		A1F1FBAA288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB97288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf */; };
+		A1F1FBAB288DAAB90080E7D7 /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB98288DAAB90080E7D7 /* Muli-ExtraBold.ttf */; };
+		A1F1FBAC288DAAB90080E7D7 /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB98288DAAB90080E7D7 /* Muli-ExtraBold.ttf */; };
+		A1F1FBAD288DAAB90080E7D7 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB99288DAAB90080E7D7 /* Muli-Bold.ttf */; };
+		A1F1FBAE288DAAB90080E7D7 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB99288DAAB90080E7D7 /* Muli-Bold.ttf */; };
+		A1F1FBAF288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9A288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf */; };
+		A1F1FBB0288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9A288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf */; };
+		A1F1FBB1288DAAB90080E7D7 /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9B288DAAB90080E7D7 /* Muli-Italic.ttf */; };
+		A1F1FBB2288DAAB90080E7D7 /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9B288DAAB90080E7D7 /* Muli-Italic.ttf */; };
+		A1F1FBB3288DAAB90080E7D7 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9C288DAAB90080E7D7 /* Muli-SemiBold.ttf */; };
+		A1F1FBB4288DAAB90080E7D7 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9C288DAAB90080E7D7 /* Muli-SemiBold.ttf */; };
+		A1F1FBB5288DAAB90080E7D7 /* Muli-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9D288DAAB90080E7D7 /* Muli-BlackItalic.ttf */; };
+		A1F1FBB6288DAAB90080E7D7 /* Muli-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9D288DAAB90080E7D7 /* Muli-BlackItalic.ttf */; };
+		A1F1FBB7288DAAB90080E7D7 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9E288DAAB90080E7D7 /* Muli-Light.ttf */; };
+		A1F1FBB8288DAAB90080E7D7 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9E288DAAB90080E7D7 /* Muli-Light.ttf */; };
+		A1F1FBB9288DAAB90080E7D7 /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9F288DAAB90080E7D7 /* Muli.ttf */; };
+		A1F1FBBA288DAAB90080E7D7 /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB9F288DAAB90080E7D7 /* Muli.ttf */; };
+		A1F1FBBB288DAAB90080E7D7 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FBA0288DAAB90080E7D7 /* Muli-LightItalic.ttf */; };
+		A1F1FBBC288DAAB90080E7D7 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FBA0288DAAB90080E7D7 /* Muli-LightItalic.ttf */; };
+		A1F1FBBE288DABA10080E7D7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */; };
+		A1F1FBBF288DABA10080E7D7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */; };
+		A1F1FBC1288DAC430080E7D7 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */; };
+		A1F1FBC2288DAC430080E7D7 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +93,26 @@
 		A1F1FB7B288D58370080E7D7 /* TripsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsModel.swift; sourceTree = "<group>"; };
 		A1F1FB7E288D58F90080E7D7 /* TripListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListDataSource.swift; sourceTree = "<group>"; };
 		A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		A1F1FB86288D77CD0080E7D7 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		A1F1FB89288D88830080E7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1F1FB8A288DA0240080E7D7 /* TripListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewCell.swift; sourceTree = "<group>"; };
+		A1F1FB8D288DA7AA0080E7D7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A1F1FB93288DAAB90080E7D7 /* Muli-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A1F1FB94288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A1F1FB95288DAAB90080E7D7 /* Muli-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1F1FB96288DAAB90080E7D7 /* Muli-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Black.ttf"; sourceTree = "<group>"; };
+		A1F1FB97288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Semi-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1F1FB98288DAAB90080E7D7 /* Muli-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A1F1FB99288DAAB90080E7D7 /* Muli-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Bold.ttf"; sourceTree = "<group>"; };
+		A1F1FB9A288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A1F1FB9B288DAAB90080E7D7 /* Muli-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Italic.ttf"; sourceTree = "<group>"; };
+		A1F1FB9C288DAAB90080E7D7 /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-SemiBold.ttf"; sourceTree = "<group>"; };
+		A1F1FB9D288DAAB90080E7D7 /* Muli-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A1F1FB9E288DAAB90080E7D7 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		A1F1FB9F288DAAB90080E7D7 /* Muli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muli.ttf; sourceTree = "<group>"; };
+		A1F1FBA0288DAAB90080E7D7 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +163,8 @@
 		A1F1FB44288D49C70080E7D7 /* TripManagerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB89288D88830080E7D7 /* Info.plist */,
+				A1F1FB90288DAA820080E7D7 /* Resource */,
 				A1F1FB6F288D4AF60080E7D7 /* Modules */,
 				A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */,
 				A1F1FB49288D49C80080E7D7 /* Assets.xcassets */,
@@ -141,6 +201,7 @@
 		A1F1FB6F288D4AF60080E7D7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB85288D77B30080E7D7 /* Extension */,
 				A1F1FB81288D5A800080E7D7 /* Commons */,
 				A1F1FB70288D4AFF0080E7D7 /* List */,
 			);
@@ -162,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				A1F1FB77288D4C780080E7D7 /* TripListView.swift */,
+				A1F1FB8A288DA0240080E7D7 /* TripListViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +258,54 @@
 				A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		A1F1FB85288D77B30080E7D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB86288D77CD0080E7D7 /* URLRequest+Extension.swift */,
+				A1F1FB8D288DA7AA0080E7D7 /* String+Extension.swift */,
+				A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */,
+				A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A1F1FB90288DAA820080E7D7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB91288DAA8C0080E7D7 /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A1F1FB91288DAA8C0080E7D7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB92288DAAB90080E7D7 /* Muli */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1F1FB92288DAAB90080E7D7 /* Muli */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB93288DAAB90080E7D7 /* Muli-ExtraLight.ttf */,
+				A1F1FB94288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf */,
+				A1F1FB95288DAAB90080E7D7 /* Muli-BoldItalic.ttf */,
+				A1F1FB96288DAAB90080E7D7 /* Muli-Black.ttf */,
+				A1F1FB97288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf */,
+				A1F1FB98288DAAB90080E7D7 /* Muli-ExtraBold.ttf */,
+				A1F1FB99288DAAB90080E7D7 /* Muli-Bold.ttf */,
+				A1F1FB9A288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf */,
+				A1F1FB9B288DAAB90080E7D7 /* Muli-Italic.ttf */,
+				A1F1FB9C288DAAB90080E7D7 /* Muli-SemiBold.ttf */,
+				A1F1FB9D288DAAB90080E7D7 /* Muli-BlackItalic.ttf */,
+				A1F1FB9E288DAAB90080E7D7 /* Muli-Light.ttf */,
+				A1F1FB9F288DAAB90080E7D7 /* Muli.ttf */,
+				A1F1FBA0288DAAB90080E7D7 /* Muli-LightItalic.ttf */,
+			);
+			path = Muli;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +412,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F1FBB3288DAAB90080E7D7 /* Muli-SemiBold.ttf in Resources */,
+				A1F1FBB1288DAAB90080E7D7 /* Muli-Italic.ttf in Resources */,
+				A1F1FBBB288DAAB90080E7D7 /* Muli-LightItalic.ttf in Resources */,
+				A1F1FBAD288DAAB90080E7D7 /* Muli-Bold.ttf in Resources */,
+				A1F1FBA9288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf in Resources */,
+				A1F1FBA5288DAAB90080E7D7 /* Muli-BoldItalic.ttf in Resources */,
+				A1F1FBB5288DAAB90080E7D7 /* Muli-BlackItalic.ttf in Resources */,
+				A1F1FBB9288DAAB90080E7D7 /* Muli.ttf in Resources */,
+				A1F1FBB7288DAAB90080E7D7 /* Muli-Light.ttf in Resources */,
 				A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */,
+				A1F1FBA1288DAAB90080E7D7 /* Muli-ExtraLight.ttf in Resources */,
+				A1F1FBAF288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf in Resources */,
 				A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */,
+				A1F1FBA3288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf in Resources */,
+				A1F1FBA7288DAAB90080E7D7 /* Muli-Black.ttf in Resources */,
+				A1F1FBAB288DAAB90080E7D7 /* Muli-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +435,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F1FBA6288DAAB90080E7D7 /* Muli-BoldItalic.ttf in Resources */,
+				A1F1FBA2288DAAB90080E7D7 /* Muli-ExtraLight.ttf in Resources */,
+				A1F1FBBC288DAAB90080E7D7 /* Muli-LightItalic.ttf in Resources */,
+				A1F1FBA4288DAAB90080E7D7 /* Muli-ExtraLightItalic.ttf in Resources */,
+				A1F1FBB6288DAAB90080E7D7 /* Muli-BlackItalic.ttf in Resources */,
+				A1F1FBB0288DAAB90080E7D7 /* Muli-ExtraBoldItalic.ttf in Resources */,
+				A1F1FBB4288DAAB90080E7D7 /* Muli-SemiBold.ttf in Resources */,
+				A1F1FBB2288DAAB90080E7D7 /* Muli-Italic.ttf in Resources */,
+				A1F1FBAA288DAAB90080E7D7 /* Muli-Semi-BoldItalic.ttf in Resources */,
+				A1F1FBA8288DAAB90080E7D7 /* Muli-Black.ttf in Resources */,
+				A1F1FBAE288DAAB90080E7D7 /* Muli-Bold.ttf in Resources */,
+				A1F1FBB8288DAAB90080E7D7 /* Muli-Light.ttf in Resources */,
+				A1F1FBAC288DAAB90080E7D7 /* Muli-ExtraBold.ttf in Resources */,
+				A1F1FBBA288DAAB90080E7D7 /* Muli.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,11 +467,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */,
+				A1F1FB8E288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
+				A1F1FBC1288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
+				A1F1FB87288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
 				A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */,
 				A1F1FB7F288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
+				A1F1FBBE288DABA10080E7D7 /* Date+Extension.swift in Sources */,
 				A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */,
 				A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
 				A1F1FB7C288D58370080E7D7 /* TripsModel.swift in Sources */,
+				A1F1FB8B288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +484,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F1FB88288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
+				A1F1FBC2288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
+				A1F1FB8F288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
 				A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
 				A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
 				A1F1FB7D288D58370080E7D7 /* TripsModel.swift in Sources */,
+				A1F1FBBF288DABA10080E7D7 /* Date+Extension.swift in Sources */,
 				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
+				A1F1FB8C288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +645,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TripManagerSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TripManagerSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -525,6 +674,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TripManagerSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TripManagerSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
