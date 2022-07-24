@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */; };
-		A1F1FB48288D49C70080E7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB47288D49C70080E7D7 /* ContentView.swift */; };
 		A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB49288D49C80080E7D7 /* Assets.xcassets */; };
 		A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */; };
 		A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */; };
 		A1F1FB61288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */; };
 		A1F1FB63288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */; };
+		A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB77288D4C780080E7D7 /* TripListView.swift */; };
+		A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB79288D4CB80080E7D7 /* TripListViewModel.swift */; };
+		A1F1FB7C288D58370080E7D7 /* TripsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB7B288D58370080E7D7 /* TripsModel.swift */; };
+		A1F1FB7D288D58370080E7D7 /* TripsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB7B288D58370080E7D7 /* TripsModel.swift */; };
+		A1F1FB7F288D58F90080E7D7 /* TripListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB7E288D58F90080E7D7 /* TripListDataSource.swift */; };
+		A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB7E288D58F90080E7D7 /* TripListDataSource.swift */; };
+		A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */; };
+		A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripManagerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIApp.swift; sourceTree = "<group>"; };
-		A1F1FB47288D49C70080E7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1F1FB49288D49C80080E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1F1FB52288D49C80080E7D7 /* TripManagerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,11 @@
 		A1F1FB5C288D49C80080E7D7 /* TripManagerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1F1FB77288D4C780080E7D7 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		A1F1FB79288D4CB80080E7D7 /* TripListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewModel.swift; sourceTree = "<group>"; };
+		A1F1FB7B288D58370080E7D7 /* TripsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsModel.swift; sourceTree = "<group>"; };
+		A1F1FB7E288D58F90080E7D7 /* TripListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListDataSource.swift; sourceTree = "<group>"; };
+		A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +107,6 @@
 			children = (
 				A1F1FB6F288D4AF60080E7D7 /* Modules */,
 				A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */,
-				A1F1FB47288D49C70080E7D7 /* ContentView.swift */,
 				A1F1FB49288D49C80080E7D7 /* Assets.xcassets */,
 				A1F1FB4B288D49C80080E7D7 /* Preview Content */,
 			);
@@ -131,6 +141,7 @@
 		A1F1FB6F288D4AF60080E7D7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB81288D5A800080E7D7 /* Commons */,
 				A1F1FB70288D4AFF0080E7D7 /* List */,
 			);
 			path = Modules;
@@ -150,6 +161,7 @@
 		A1F1FB71288D4B290080E7D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB77288D4C780080E7D7 /* TripListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +169,7 @@
 		A1F1FB72288D4B2F0080E7D7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB79288D4CB80080E7D7 /* TripListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,6 +177,7 @@
 		A1F1FB73288D4B340080E7D7 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB7E288D58F90080E7D7 /* TripListDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -171,8 +185,17 @@
 		A1F1FB74288D4B3B0080E7D7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB7B288D58370080E7D7 /* TripsModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A1F1FB81288D5A800080E7D7 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1FB48288D49C70080E7D7 /* ContentView.swift in Sources */,
+				A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */,
 				A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */,
+				A1F1FB7F288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
+				A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */,
+				A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
+				A1F1FB7C288D58370080E7D7 /* TripsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
+				A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
+				A1F1FB7D288D58370080E7D7 /* TripsModel.swift in Sources */,
 				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
