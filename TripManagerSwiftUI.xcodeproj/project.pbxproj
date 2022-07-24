@@ -94,6 +94,7 @@
 		A1F1FB44288D49C70080E7D7 /* TripManagerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FB6F288D4AF60080E7D7 /* Modules */,
 				A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */,
 				A1F1FB47288D49C70080E7D7 /* ContentView.swift */,
 				A1F1FB49288D49C80080E7D7 /* Assets.xcassets */,
@@ -125,6 +126,53 @@
 				A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = TripManagerSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		A1F1FB6F288D4AF60080E7D7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB70288D4AFF0080E7D7 /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A1F1FB70288D4AFF0080E7D7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB74288D4B3B0080E7D7 /* Model */,
+				A1F1FB73288D4B340080E7D7 /* DataSource */,
+				A1F1FB72288D4B2F0080E7D7 /* ViewModel */,
+				A1F1FB71288D4B290080E7D7 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A1F1FB71288D4B290080E7D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1F1FB72288D4B2F0080E7D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1F1FB73288D4B340080E7D7 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		A1F1FB74288D4B3B0080E7D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
