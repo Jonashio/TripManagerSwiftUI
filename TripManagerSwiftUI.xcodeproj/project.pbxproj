@@ -7,66 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1F1FACE288D45DD0080E7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FACD288D45DD0080E7D7 /* AppDelegate.swift */; };
-		A1F1FAD0288D45DD0080E7D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FACF288D45DD0080E7D7 /* SceneDelegate.swift */; };
-		A1F1FAD2288D45DD0080E7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FAD1288D45DD0080E7D7 /* ViewController.swift */; };
-		A1F1FAD5288D45DD0080E7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FAD3288D45DD0080E7D7 /* Main.storyboard */; };
-		A1F1FAD7288D45E00080E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FAD6288D45E00080E7D7 /* Assets.xcassets */; };
-		A1F1FADA288D45E00080E7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FAD8288D45E00080E7D7 /* LaunchScreen.storyboard */; };
-		A1F1FAE5288D45E00080E7D7 /* TripManagerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FAE4288D45E00080E7D7 /* TripManagerSwiftUITests.swift */; };
-		A1F1FAEF288D45E00080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FAEE288D45E00080E7D7 /* TripManagerSwiftUIUITests.swift */; };
-		A1F1FAF1288D45E00080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FAF0288D45E00080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */; };
+		A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */; };
+		A1F1FB48288D49C70080E7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB47288D49C70080E7D7 /* ContentView.swift */; };
+		A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB49288D49C80080E7D7 /* Assets.xcassets */; };
+		A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */; };
+		A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */; };
+		A1F1FB61288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */; };
+		A1F1FB63288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1F1FAE1288D45E00080E7D7 /* PBXContainerItemProxy */ = {
+		A1F1FB53288D49C80080E7D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A1F1FAC2288D45DC0080E7D7 /* Project object */;
+			containerPortal = A1F1FB3A288D49C70080E7D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1F1FAC9288D45DD0080E7D7;
+			remoteGlobalIDString = A1F1FB41288D49C70080E7D7;
 			remoteInfo = TripManagerSwiftUI;
 		};
-		A1F1FAEB288D45E00080E7D7 /* PBXContainerItemProxy */ = {
+		A1F1FB5D288D49C80080E7D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A1F1FAC2288D45DC0080E7D7 /* Project object */;
+			containerPortal = A1F1FB3A288D49C70080E7D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1F1FAC9288D45DD0080E7D7;
+			remoteGlobalIDString = A1F1FB41288D49C70080E7D7;
 			remoteInfo = TripManagerSwiftUI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1F1FACA288D45DD0080E7D7 /* TripManagerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripManagerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F1FACD288D45DD0080E7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1F1FACF288D45DD0080E7D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1F1FAD1288D45DD0080E7D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1F1FAD4288D45DD0080E7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1F1FAD6288D45E00080E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1F1FAD9288D45E00080E7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1F1FADB288D45E00080E7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1F1FAE0288D45E00080E7D7 /* TripManagerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F1FAE4288D45E00080E7D7 /* TripManagerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUITests.swift; sourceTree = "<group>"; };
-		A1F1FAEA288D45E00080E7D7 /* TripManagerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F1FAEE288D45E00080E7D7 /* TripManagerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITests.swift; sourceTree = "<group>"; };
-		A1F1FAF0288D45E00080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripManagerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIApp.swift; sourceTree = "<group>"; };
+		A1F1FB47288D49C70080E7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1F1FB49288D49C80080E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1F1FB52288D49C80080E7D7 /* TripManagerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUITests.swift; sourceTree = "<group>"; };
+		A1F1FB5C288D49C80080E7D7 /* TripManagerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITests.swift; sourceTree = "<group>"; };
+		A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1F1FAC7288D45DD0080E7D7 /* Frameworks */ = {
+		A1F1FB3F288D49C70080E7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F1FADD288D45E00080E7D7 /* Frameworks */ = {
+		A1F1FB4F288D49C80080E7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F1FAE7288D45E00080E7D7 /* Frameworks */ = {
+		A1F1FB59288D49C80080E7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1F1FAC1288D45DC0080E7D7 = {
+		A1F1FB39288D49C70080E7D7 = {
 			isa = PBXGroup;
 			children = (
-				A1F1FACC288D45DD0080E7D7 /* TripManagerSwiftUI */,
-				A1F1FAE3288D45E00080E7D7 /* TripManagerSwiftUITests */,
-				A1F1FAED288D45E00080E7D7 /* TripManagerSwiftUIUITests */,
-				A1F1FACB288D45DD0080E7D7 /* Products */,
+				A1F1FB44288D49C70080E7D7 /* TripManagerSwiftUI */,
+				A1F1FB55288D49C80080E7D7 /* TripManagerSwiftUITests */,
+				A1F1FB5F288D49C80080E7D7 /* TripManagerSwiftUIUITests */,
+				A1F1FB43288D49C70080E7D7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1F1FACB288D45DD0080E7D7 /* Products */ = {
+		A1F1FB43288D49C70080E7D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1F1FACA288D45DD0080E7D7 /* TripManagerSwiftUI.app */,
-				A1F1FAE0288D45E00080E7D7 /* TripManagerSwiftUITests.xctest */,
-				A1F1FAEA288D45E00080E7D7 /* TripManagerSwiftUIUITests.xctest */,
+				A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */,
+				A1F1FB52288D49C80080E7D7 /* TripManagerSwiftUITests.xctest */,
+				A1F1FB5C288D49C80080E7D7 /* TripManagerSwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1F1FACC288D45DD0080E7D7 /* TripManagerSwiftUI */ = {
+		A1F1FB44288D49C70080E7D7 /* TripManagerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A1F1FACD288D45DD0080E7D7 /* AppDelegate.swift */,
-				A1F1FACF288D45DD0080E7D7 /* SceneDelegate.swift */,
-				A1F1FAD1288D45DD0080E7D7 /* ViewController.swift */,
-				A1F1FAD3288D45DD0080E7D7 /* Main.storyboard */,
-				A1F1FAD6288D45E00080E7D7 /* Assets.xcassets */,
-				A1F1FAD8288D45E00080E7D7 /* LaunchScreen.storyboard */,
-				A1F1FADB288D45E00080E7D7 /* Info.plist */,
+				A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */,
+				A1F1FB47288D49C70080E7D7 /* ContentView.swift */,
+				A1F1FB49288D49C80080E7D7 /* Assets.xcassets */,
+				A1F1FB4B288D49C80080E7D7 /* Preview Content */,
 			);
 			path = TripManagerSwiftUI;
 			sourceTree = "<group>";
 		};
-		A1F1FAE3288D45E00080E7D7 /* TripManagerSwiftUITests */ = {
+		A1F1FB4B288D49C80080E7D7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A1F1FAE4288D45E00080E7D7 /* TripManagerSwiftUITests.swift */,
+				A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1F1FB55288D49C80080E7D7 /* TripManagerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */,
 			);
 			path = TripManagerSwiftUITests;
 			sourceTree = "<group>";
 		};
-		A1F1FAED288D45E00080E7D7 /* TripManagerSwiftUIUITests */ = {
+		A1F1FB5F288D49C80080E7D7 /* TripManagerSwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A1F1FAEE288D45E00080E7D7 /* TripManagerSwiftUIUITests.swift */,
-				A1F1FAF0288D45E00080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */,
+				A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */,
+				A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = TripManagerSwiftUIUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1F1FAC9288D45DD0080E7D7 /* TripManagerSwiftUI */ = {
+		A1F1FB41288D49C70080E7D7 /* TripManagerSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1F1FAF4288D45E00080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUI" */;
+			buildConfigurationList = A1F1FB66288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUI" */;
 			buildPhases = (
-				A1F1FAC6288D45DD0080E7D7 /* Sources */,
-				A1F1FAC7288D45DD0080E7D7 /* Frameworks */,
-				A1F1FAC8288D45DD0080E7D7 /* Resources */,
+				A1F1FB3E288D49C70080E7D7 /* Sources */,
+				A1F1FB3F288D49C70080E7D7 /* Frameworks */,
+				A1F1FB40288D49C70080E7D7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = TripManagerSwiftUI;
 			productName = TripManagerSwiftUI;
-			productReference = A1F1FACA288D45DD0080E7D7 /* TripManagerSwiftUI.app */;
+			productReference = A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1F1FADF288D45E00080E7D7 /* TripManagerSwiftUITests */ = {
+		A1F1FB51288D49C80080E7D7 /* TripManagerSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1F1FAF7288D45E00080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUITests" */;
+			buildConfigurationList = A1F1FB69288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUITests" */;
 			buildPhases = (
-				A1F1FADC288D45E00080E7D7 /* Sources */,
-				A1F1FADD288D45E00080E7D7 /* Frameworks */,
-				A1F1FADE288D45E00080E7D7 /* Resources */,
+				A1F1FB4E288D49C80080E7D7 /* Sources */,
+				A1F1FB4F288D49C80080E7D7 /* Frameworks */,
+				A1F1FB50288D49C80080E7D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1F1FAE2288D45E00080E7D7 /* PBXTargetDependency */,
+				A1F1FB54288D49C80080E7D7 /* PBXTargetDependency */,
 			);
 			name = TripManagerSwiftUITests;
 			productName = TripManagerSwiftUITests;
-			productReference = A1F1FAE0288D45E00080E7D7 /* TripManagerSwiftUITests.xctest */;
+			productReference = A1F1FB52288D49C80080E7D7 /* TripManagerSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A1F1FAE9288D45E00080E7D7 /* TripManagerSwiftUIUITests */ = {
+		A1F1FB5B288D49C80080E7D7 /* TripManagerSwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1F1FAFA288D45E00080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUIUITests" */;
+			buildConfigurationList = A1F1FB6C288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUIUITests" */;
 			buildPhases = (
-				A1F1FAE6288D45E00080E7D7 /* Sources */,
-				A1F1FAE7288D45E00080E7D7 /* Frameworks */,
-				A1F1FAE8288D45E00080E7D7 /* Resources */,
+				A1F1FB58288D49C80080E7D7 /* Sources */,
+				A1F1FB59288D49C80080E7D7 /* Frameworks */,
+				A1F1FB5A288D49C80080E7D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1F1FAEC288D45E00080E7D7 /* PBXTargetDependency */,
+				A1F1FB5E288D49C80080E7D7 /* PBXTargetDependency */,
 			);
 			name = TripManagerSwiftUIUITests;
 			productName = TripManagerSwiftUIUITests;
-			productReference = A1F1FAEA288D45E00080E7D7 /* TripManagerSwiftUIUITests.xctest */;
+			productReference = A1F1FB5C288D49C80080E7D7 /* TripManagerSwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1F1FAC2288D45DC0080E7D7 /* Project object */ = {
+		A1F1FB3A288D49C70080E7D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					A1F1FAC9288D45DD0080E7D7 = {
+					A1F1FB41288D49C70080E7D7 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
-					A1F1FADF288D45E00080E7D7 = {
+					A1F1FB51288D49C80080E7D7 = {
 						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = A1F1FAC9288D45DD0080E7D7;
+						TestTargetID = A1F1FB41288D49C70080E7D7;
 					};
-					A1F1FAE9288D45E00080E7D7 = {
+					A1F1FB5B288D49C80080E7D7 = {
 						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = A1F1FAC9288D45DD0080E7D7;
+						TestTargetID = A1F1FB41288D49C70080E7D7;
 					};
 				};
 			};
-			buildConfigurationList = A1F1FAC5288D45DC0080E7D7 /* Build configuration list for PBXProject "TripManagerSwiftUI" */;
+			buildConfigurationList = A1F1FB3D288D49C70080E7D7 /* Build configuration list for PBXProject "TripManagerSwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = A1F1FAC1288D45DC0080E7D7;
-			productRefGroup = A1F1FACB288D45DD0080E7D7 /* Products */;
+			mainGroup = A1F1FB39288D49C70080E7D7;
+			productRefGroup = A1F1FB43288D49C70080E7D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1F1FAC9288D45DD0080E7D7 /* TripManagerSwiftUI */,
-				A1F1FADF288D45E00080E7D7 /* TripManagerSwiftUITests */,
-				A1F1FAE9288D45E00080E7D7 /* TripManagerSwiftUIUITests */,
+				A1F1FB41288D49C70080E7D7 /* TripManagerSwiftUI */,
+				A1F1FB51288D49C80080E7D7 /* TripManagerSwiftUITests */,
+				A1F1FB5B288D49C80080E7D7 /* TripManagerSwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1F1FAC8288D45DD0080E7D7 /* Resources */ = {
+		A1F1FB40288D49C70080E7D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1FADA288D45E00080E7D7 /* LaunchScreen.storyboard in Resources */,
-				A1F1FAD7288D45E00080E7D7 /* Assets.xcassets in Resources */,
-				A1F1FAD5288D45DD0080E7D7 /* Main.storyboard in Resources */,
+				A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */,
+				A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F1FADE288D45E00080E7D7 /* Resources */ = {
+		A1F1FB50288D49C80080E7D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F1FAE8288D45E00080E7D7 /* Resources */ = {
+		A1F1FB5A288D49C80080E7D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,69 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1F1FAC6288D45DD0080E7D7 /* Sources */ = {
+		A1F1FB3E288D49C70080E7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1FAD2288D45DD0080E7D7 /* ViewController.swift in Sources */,
-				A1F1FACE288D45DD0080E7D7 /* AppDelegate.swift in Sources */,
-				A1F1FAD0288D45DD0080E7D7 /* SceneDelegate.swift in Sources */,
+				A1F1FB48288D49C70080E7D7 /* ContentView.swift in Sources */,
+				A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F1FADC288D45E00080E7D7 /* Sources */ = {
+		A1F1FB4E288D49C80080E7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1FAE5288D45E00080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
+				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F1FAE6288D45E00080E7D7 /* Sources */ = {
+		A1F1FB58288D49C80080E7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1FAEF288D45E00080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */,
-				A1F1FAF1288D45E00080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */,
+				A1F1FB61288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */,
+				A1F1FB63288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1F1FAE2288D45E00080E7D7 /* PBXTargetDependency */ = {
+		A1F1FB54288D49C80080E7D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1F1FAC9288D45DD0080E7D7 /* TripManagerSwiftUI */;
-			targetProxy = A1F1FAE1288D45E00080E7D7 /* PBXContainerItemProxy */;
+			target = A1F1FB41288D49C70080E7D7 /* TripManagerSwiftUI */;
+			targetProxy = A1F1FB53288D49C80080E7D7 /* PBXContainerItemProxy */;
 		};
-		A1F1FAEC288D45E00080E7D7 /* PBXTargetDependency */ = {
+		A1F1FB5E288D49C80080E7D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1F1FAC9288D45DD0080E7D7 /* TripManagerSwiftUI */;
-			targetProxy = A1F1FAEB288D45E00080E7D7 /* PBXContainerItemProxy */;
+			target = A1F1FB41288D49C70080E7D7 /* TripManagerSwiftUI */;
+			targetProxy = A1F1FB5D288D49C80080E7D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A1F1FAD3288D45DD0080E7D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1F1FAD4288D45DD0080E7D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1F1FAD8288D45E00080E7D7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1F1FAD9288D45E00080E7D7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A1F1FAF2288D45E00080E7D7 /* Debug */ = {
+		A1F1FB64288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		A1F1FAF3288D45E00080E7D7 /* Release */ = {
+		A1F1FB65288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,18 +409,19 @@
 			};
 			name = Release;
 		};
-		A1F1FAF5288D45E00080E7D7 /* Debug */ = {
+		A1F1FB67288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripManagerSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripManagerSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,18 +437,19 @@
 			};
 			name = Debug;
 		};
-		A1F1FAF6288D45E00080E7D7 /* Release */ = {
+		A1F1FB68288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripManagerSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripManagerSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +465,7 @@
 			};
 			name = Release;
 		};
-		A1F1FAF8288D45E00080E7D7 /* Debug */ = {
+		A1F1FB6A288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		A1F1FAF9288D45E00080E7D7 /* Release */ = {
+		A1F1FB6B288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,7 +503,7 @@
 			};
 			name = Release;
 		};
-		A1F1FAFB288D45E00080E7D7 /* Debug */ = {
+		A1F1FB6D288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		A1F1FAFC288D45E00080E7D7 /* Release */ = {
+		A1F1FB6E288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -559,43 +540,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1F1FAC5288D45DC0080E7D7 /* Build configuration list for PBXProject "TripManagerSwiftUI" */ = {
+		A1F1FB3D288D49C70080E7D7 /* Build configuration list for PBXProject "TripManagerSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1F1FAF2288D45E00080E7D7 /* Debug */,
-				A1F1FAF3288D45E00080E7D7 /* Release */,
+				A1F1FB64288D49C80080E7D7 /* Debug */,
+				A1F1FB65288D49C80080E7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1F1FAF4288D45E00080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUI" */ = {
+		A1F1FB66288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1F1FAF5288D45E00080E7D7 /* Debug */,
-				A1F1FAF6288D45E00080E7D7 /* Release */,
+				A1F1FB67288D49C80080E7D7 /* Debug */,
+				A1F1FB68288D49C80080E7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1F1FAF7288D45E00080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUITests" */ = {
+		A1F1FB69288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1F1FAF8288D45E00080E7D7 /* Debug */,
-				A1F1FAF9288D45E00080E7D7 /* Release */,
+				A1F1FB6A288D49C80080E7D7 /* Debug */,
+				A1F1FB6B288D49C80080E7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1F1FAFA288D45E00080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUIUITests" */ = {
+		A1F1FB6C288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1F1FAFB288D45E00080E7D7 /* Debug */,
-				A1F1FAFC288D45E00080E7D7 /* Release */,
+				A1F1FB6D288D49C80080E7D7 /* Debug */,
+				A1F1FB6E288D49C80080E7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1F1FAC2288D45DC0080E7D7 /* Project object */;
+	rootObject = A1F1FB3A288D49C70080E7D7 /* Project object */;
 }
