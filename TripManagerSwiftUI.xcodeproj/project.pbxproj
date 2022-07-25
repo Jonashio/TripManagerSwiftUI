@@ -59,6 +59,10 @@
 		A1F1FBBF288DABA10080E7D7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */; };
 		A1F1FBC1288DAC430080E7D7 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */; };
 		A1F1FBC2288DAC430080E7D7 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */; };
+		A1F1FBC6288E1D4C0080E7D7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC5288E1D4C0080E7D7 /* MapView.swift */; };
+		A1F1FBC7288E1D4C0080E7D7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC5288E1D4C0080E7D7 /* MapView.swift */; };
+		A1F1FBC9288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */; };
+		A1F1FBCA288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +117,8 @@
 		A1F1FBA0288DAAB90080E7D7 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-LightItalic.ttf"; sourceTree = "<group>"; };
 		A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
+		A1F1FBC5288E1D4C0080E7D7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +207,7 @@
 		A1F1FB6F288D4AF60080E7D7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1FBC3288E1D2F0080E7D7 /* Map */,
 				A1F1FB85288D77B30080E7D7 /* Extension */,
 				A1F1FB81288D5A800080E7D7 /* Commons */,
 				A1F1FB70288D4AFF0080E7D7 /* List */,
@@ -267,6 +274,7 @@
 				A1F1FB8D288DA7AA0080E7D7 /* String+Extension.swift */,
 				A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */,
 				A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */,
+				A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -306,6 +314,22 @@
 				A1F1FBA0288DAAB90080E7D7 /* Muli-LightItalic.ttf */,
 			);
 			path = Muli;
+			sourceTree = "<group>";
+		};
+		A1F1FBC3288E1D2F0080E7D7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FBC4288E1D3A0080E7D7 /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A1F1FBC4288E1D3A0080E7D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1FBC5288E1D4C0080E7D7 /* MapView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */,
+				A1F1FBC6288E1D4C0080E7D7 /* MapView.swift in Sources */,
 				A1F1FB8E288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
 				A1F1FBC1288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
 				A1F1FB87288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
@@ -475,6 +500,7 @@
 				A1F1FBBE288DABA10080E7D7 /* Date+Extension.swift in Sources */,
 				A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */,
 				A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
+				A1F1FBC9288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */,
 				A1F1FB7C288D58370080E7D7 /* TripsModel.swift in Sources */,
 				A1F1FB8B288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
 			);
@@ -487,10 +513,12 @@
 				A1F1FB88288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
 				A1F1FBC2288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
 				A1F1FB8F288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
+				A1F1FBCA288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */,
 				A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
 				A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
 				A1F1FB7D288D58370080E7D7 /* TripsModel.swift in Sources */,
 				A1F1FBBF288DABA10080E7D7 /* Date+Extension.swift in Sources */,
+				A1F1FBC7288E1D4C0080E7D7 /* MapView.swift in Sources */,
 				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
 				A1F1FB8C288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
 			);

@@ -25,8 +25,8 @@ struct TripListViewCell: View {
         ZStack {
             Rectangle()
                 .fill(Color.black)
-                .frame(maxWidth: .infinity, maxHeight: 85)
-                .overlay(RoundedRectangle(cornerRadius: 20).stroke(selected ? .cyan : .clear, lineWidth: 1))
+                .frame(maxWidth: .infinity, maxHeight: 83)
+                .overlay(RoundedRectangle(cornerRadius: 20).stroke(selected ? .white : .clear, lineWidth: 2))
                 .cornerRadius(20)
             
             Button {

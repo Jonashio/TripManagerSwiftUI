@@ -17,9 +17,43 @@ final class TripListViewModel: NSObject, ObservableObject {
     }
     
     private let dataSource = TripListDataSource()
+    
     @Published var list = TripListModel()
-    @Published var coordinateRegion: MKCoordinateRegion = .init(center: CLLocationCoordinate2D(latitude: Constants.DefaultRegion.latitude, longitude: Constants.DefaultRegion.longitude),span: .init(latitudeDelta: Constants.delta, longitudeDelta: Constants.delta))
     @Published var selectedIndex: Int?
+    @Published var routesLocation: [CLLocationCoordinate2D] = []
+    
+    func generateRouteInMap(_ index: Int) {
+        let trip = list[index]
+        var locations = [CLLocationCoordinate2D]()
+        
+        guard let sourcePoint = buildCoordinate(trip.origin?.point), let destinationPoint = buildCoordinate(trip.destination?.point) else {
+            // TODO: Pending show popup error
+            return
+        }
+        
+        locations.append(sourcePoint)
+        trip.stops?.forEach({ stopPoint in
+            if let point = buildCoordinate(stopPoint.point) {
+                locations.append(point)
+            } else {
+                // TODO: Pending show popup error
+                return
+            }
+        })
+        locations.append(destinationPoint)
+        
+        print("Jonas en el generateRouteInMap generamos \(list[index].driverName) ---> \(locations)/\(trip.stops?.count)")
+        self.routesLocation = locations
+        
+    }
+    
+    private func buildCoordinate(_ point: PointModel?) -> CLLocationCoordinate2D? {
+        guard let lat = point?.latitude, let lon = point?.longitude else {
+            return nil
+        }
+        
+        return CLLocationCoordinate2DMake(lat, lon)
+    }
     
     func fetch() {
         dataSource.fetchRequest() { response in
