@@ -10,7 +10,8 @@ import SwiftUI
 
 // MARK: - TripModelElement
 struct TripModel: Codable {
-    let id = UUID()
+    var id = UUID()
+    
     let status: Status?
     let stops: [StopModel]?
     let origin: DestinationModel?

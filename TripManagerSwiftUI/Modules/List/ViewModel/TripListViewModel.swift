@@ -19,8 +19,9 @@ final class TripListViewModel: NSObject, ObservableObject {
     private let dataSource = TripListDataSource()
     @Published var list = TripListModel()
     @Published var coordinateRegion: MKCoordinateRegion = .init(center: CLLocationCoordinate2D(latitude: Constants.DefaultRegion.latitude, longitude: Constants.DefaultRegion.longitude),span: .init(latitudeDelta: Constants.delta, longitudeDelta: Constants.delta))
+    @Published var selectedIndex: Int?
     
-    func fetch(completion: @escaping NTResponse<Void> ) {
+    func fetch() {
         dataSource.fetchRequest() { response in
             switch response {
             case .success(let model):
@@ -29,10 +30,8 @@ final class TripListViewModel: NSObject, ObservableObject {
                     withAnimation { self.list = model }
                     self.list = model
                 }
-                
-                completion(.success(()))
             case .error(let error):
-                completion(.error(error))
+                print("ERROR")
             }
             
         }

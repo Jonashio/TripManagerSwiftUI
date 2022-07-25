@@ -10,6 +10,10 @@ import MapKit
 
 struct TripListView: View {
     
+    private struct Constants {
+        static let fontTitle = Font.custom("Muli-Bold", size: 25)
+    }
+    
     @ObservedObject var viewModel: TripListViewModel = TripListViewModel()
     
     var body: some View {
@@ -20,24 +24,31 @@ struct TripListView: View {
                 
                 ScrollView(.vertical) {
                     VStack(spacing: 0) {
-                        ForEach($viewModel.list, id: \.id) { trip in
-                            TripListViewCell(model: trip
-                            ) { model in
-                                print("Jonas estas pirntando la lista")
+                        Text("Trips list")
+                            .font(Constants.fontTitle)
+                            .padding()
+                        if $viewModel.list.count > 0 {
+                            ForEach(0..<$viewModel.list.count) { idx in
+                                TripListViewCell(model: $viewModel.list[idx], selected: viewModel.selectedIndex == idx) { uuid in
+                                    withAnimation { viewModel.selectedIndex = idx }
+                                }
+                                Divider()
                             }
-                            
-                            Divider()
+                        }else{
+                            VStack(alignment: .center) {
+                                ProgressView("Fetching...")
+                            }.frame(maxWidth: .infinity, minHeight: 150, alignment: .center)
                         }
                     }.frame(maxWidth: .infinity)
-                }.frame(maxWidth: .infinity, maxHeight: .infinity)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .padding(.bottom, 30)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .edgesIgnoringSafeArea(.all)
         .onAppear() {
-            viewModel.fetch() { response in
-                print("Jona pintamos: \(response)")
-            }
+            viewModel.fetch()
         }
     }
 }
