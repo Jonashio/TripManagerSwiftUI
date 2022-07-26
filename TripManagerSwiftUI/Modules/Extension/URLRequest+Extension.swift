@@ -12,7 +12,7 @@ extension URLRequest {
     static var URL_BASE: String = "​https://europe-west1-metropolis-fe-test.cloudfunctions.net/"
 
     static func buildRequest(method: String, methodType: MethodType) -> URLRequest? {
-        guard let url = URL(string: "https://europe-west1-metropolis-fe-test.cloudfunctions.net/api/trips") else {
+        guard let url = URL(string: method) else {
             return nil
         }
         

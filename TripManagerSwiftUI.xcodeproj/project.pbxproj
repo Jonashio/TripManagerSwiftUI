@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10D6DA7289042E500751F37 /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA6289042E500751F37 /* CustomMapView.swift */; };
+		A10D6DA92890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */; };
+		A10D6DAA2890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */; };
+		A10D6DAE289064DA00751F37 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DAD289064DA00751F37 /* DetailView.swift */; };
+		A10D6DAF289064DA00751F37 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DAD289064DA00751F37 /* DetailView.swift */; };
+		A10D6DB12890666900751F37 /* Color+Extension.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB02890666900751F37 /* Color+Extension.swift.swift */; };
+		A10D6DB22890666900751F37 /* Color+Extension.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB02890666900751F37 /* Color+Extension.swift.swift */; };
+		A10D6DB42890748D00751F37 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB32890748D00751F37 /* LoadingView.swift */; };
+		A10D6DB52890748D00751F37 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB32890748D00751F37 /* LoadingView.swift */; };
+		A10D6DB7289075AF00751F37 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB6289075AF00751F37 /* ErrorView.swift */; };
+		A10D6DB8289075AF00751F37 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB6289075AF00751F37 /* ErrorView.swift */; };
 		A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */; };
 		A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB49288D49C80080E7D7 /* Assets.xcassets */; };
 		A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */; };
@@ -83,6 +94,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10D6DA6289042E500751F37 /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAnnotationProtocol.swift; sourceTree = "<group>"; };
+		A10D6DAD289064DA00751F37 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A10D6DB02890666900751F37 /* Color+Extension.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift.swift"; sourceTree = "<group>"; };
+		A10D6DB32890748D00751F37 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A10D6DB6289075AF00751F37 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripManagerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIApp.swift; sourceTree = "<group>"; };
 		A1F1FB49288D49C80080E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +163,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10D6DAB289064B000751F37 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DAC289064C900751F37 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		A10D6DAC289064C900751F37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DAD289064DA00751F37 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A10D6DB9289075DE00751F37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DB6289075AF00751F37 /* ErrorView.swift */,
+				A10D6DB32890748D00751F37 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A1F1FB39288D49C70080E7D7 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +249,7 @@
 		A1F1FB6F288D4AF60080E7D7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A10D6DAB289064B000751F37 /* Detail */,
 				A1F1FBC3288E1D2F0080E7D7 /* Map */,
 				A1F1FB85288D77B30080E7D7 /* Extension */,
 				A1F1FB81288D5A800080E7D7 /* Commons */,
@@ -262,6 +305,7 @@
 		A1F1FB81288D5A800080E7D7 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				A10D6DB9289075DE00751F37 /* View */,
 				A1F1FB82288D5AFE0080E7D7 /* NetworkUtils.swift */,
 			);
 			path = Commons;
@@ -275,6 +319,7 @@
 				A1F1FBBD288DABA10080E7D7 /* Date+Extension.swift */,
 				A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */,
 				A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */,
+				A10D6DB02890666900751F37 /* Color+Extension.swift.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -328,6 +373,8 @@
 			isa = PBXGroup;
 			children = (
 				A1F1FBC5288E1D4C0080E7D7 /* MapView.swift */,
+				A10D6DA6289042E500751F37 /* CustomMapView.swift */,
+				A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -492,17 +539,23 @@
 			files = (
 				A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */,
 				A1F1FBC6288E1D4C0080E7D7 /* MapView.swift in Sources */,
+				A10D6DB7289075AF00751F37 /* ErrorView.swift in Sources */,
 				A1F1FB8E288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
 				A1F1FBC1288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
+				A10D6DB12890666900751F37 /* Color+Extension.swift.swift in Sources */,
+				A10D6DA7289042E500751F37 /* CustomMapView.swift in Sources */,
 				A1F1FB87288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
 				A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */,
 				A1F1FB7F288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
+				A10D6DA92890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */,
+				A10D6DAE289064DA00751F37 /* DetailView.swift in Sources */,
 				A1F1FBBE288DABA10080E7D7 /* Date+Extension.swift in Sources */,
 				A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */,
 				A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
 				A1F1FBC9288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */,
 				A1F1FB7C288D58370080E7D7 /* TripsModel.swift in Sources */,
 				A1F1FB8B288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
+				A10D6DB42890748D00751F37 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,10 +570,15 @@
 				A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
 				A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
 				A1F1FB7D288D58370080E7D7 /* TripsModel.swift in Sources */,
+				A10D6DAF289064DA00751F37 /* DetailView.swift in Sources */,
+				A10D6DB52890748D00751F37 /* LoadingView.swift in Sources */,
 				A1F1FBBF288DABA10080E7D7 /* Date+Extension.swift in Sources */,
+				A10D6DAA2890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */,
 				A1F1FBC7288E1D4C0080E7D7 /* MapView.swift in Sources */,
 				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
+				A10D6DB22890666900751F37 /* Color+Extension.swift.swift in Sources */,
 				A1F1FB8C288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
+				A10D6DB8289075AF00751F37 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

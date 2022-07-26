@@ -14,9 +14,9 @@ struct TripModel: Codable {
     
     let status: Status?
     let stops: [StopModel]?
-    let origin: DestinationModel?
+    let origin: AddressModel?
     let startTime, tripModelDescription, endTime, route: String?
-    let destination: DestinationModel?
+    let destination: AddressModel?
     let driverName: String?
 
     enum CodingKeys: String, CodingKey {
@@ -34,7 +34,7 @@ enum Status: String, Codable {
 }
 
 // MARK: - Destination
-struct DestinationModel: Codable {
+struct AddressModel: Codable {
     let address: String?
     let point: PointModel?
 }
@@ -53,6 +53,21 @@ struct PointModel: Codable {
 struct StopModel: Codable {
     let point: PointModel?
     let id: Int?
+}
+
+struct StopExtensionModel: Codable {
+    let point: PointModel?
+    let userName, address: String?
+    let tripID: Int?
+    let price: Double?
+    let stopTime: String?
+    let paid: Bool?
+
+    enum CodingKeys: String, CodingKey {
+        case point, userName, address
+        case tripID = "tripId"
+        case price, stopTime, paid
+    }
 }
 
 typealias TripListModel = [TripModel]

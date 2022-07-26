@@ -9,12 +9,16 @@ import SwiftUI
 import MapKit
 
 struct MapView: UIViewRepresentable {
-    @Binding var routesLocation: [CLLocationCoordinate2D]
-    
     private let mapView = CustomMapView()
+    
+    @Binding var routesLocation: [CLLocationCoordinate2D]
+    @Binding var needRefresh: Bool
+    
+    var action: ((Int)->Void)?
     
     func makeUIView(context: UIViewRepresentableContext<MapView>) -> CustomMapView {
         mapView.delegate = mapView
+        mapView.externalAnnotationDelegate = self
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 41.817927, longitude: 1.684978),
                                         span: MKCoordinateSpan(latitudeDelta: 1.5, longitudeDelta: 1.5))
         mapView.setRegion(region, animated: true)
@@ -23,8 +27,9 @@ struct MapView: UIViewRepresentable {
     
     func updateUIView(_ uiView: CustomMapView, context: UIViewRepresentableContext<MapView>) {
         
-        if !routesLocation.isEmpty {
+        if !routesLocation.isEmpty && needRefresh {
             print("jonas modificamos el routesLocation \(routesLocation.count)")
+            needRefresh.toggle()
             
             var poinsAnnotation = [MKPointAnnotation]()
             var placeMarks = [MKPlacemark]()
@@ -38,8 +43,7 @@ struct MapView: UIViewRepresentable {
                 requestAnnotation.coordinate = point
                 poinsAnnotation.append(requestAnnotation)
                 uiView.addAnnotation(requestAnnotation)
-            }
-            routesLocation.forEach { point in
+                
                 placeMarks.append(MKPlacemark(coordinate: point))
             }
             
@@ -70,9 +74,6 @@ struct MapView: UIViewRepresentable {
                 }
             }
             
-            
-            
-            
             requests.forEach { request in
                 let directions = MKDirections(request: request)
                 directions.calculate { response, error in
@@ -80,18 +81,17 @@ struct MapView: UIViewRepresentable {
 
                     let route = response.routes[0]
                     uiView.addOverlay(route.polyline, level: .aboveRoads)
-
                 }
             }
         }
     }
 }
-
-class CustomMapView: MKMapView, MKMapViewDelegate {
-    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        let renderer = MKPolylineRenderer(overlay: overlay)
-        renderer.strokeColor = .systemBlue
-        renderer.lineWidth = 5.0
-        return renderer
+extension MapView: MapViewAnnotationProtocol{
+    func didSelect(_ coordinate: CLLocationCoordinate2D?) {
+        guard let coord = coordinate else { return }
+        guard let firstIndex = routesLocation.firstIndex(where: { $0.latitude == coord.latitude && $0.longitude == coord.longitude }) else {
+            return
+        }
+        action?(firstIndex)
     }
 }

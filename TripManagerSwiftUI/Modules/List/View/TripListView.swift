@@ -19,10 +19,10 @@ struct TripListView: View {
     var body: some View {
         ZStack {
             VStack(spacing: 0) {
-//                Map(coordinateRegion: $viewModel.coordinateRegion)
-//                    .frame(maxWidth: .infinity, maxHeight: 350)
-                MapView(routesLocation: $viewModel.routesLocation)
-                    .frame(maxWidth: .infinity, maxHeight: 350)
+                MapView(routesLocation: $viewModel.routesLocation, needRefresh: $viewModel.needMapRefresh) { idx in
+                    print("Jonas en el view: \(idx)")
+                    viewModel.loadDetailView(idx)
+                }.frame(maxWidth: .infinity, maxHeight: 350)
                 
                 ScrollView(.vertical) {
                     VStack(spacing: 0) {
@@ -31,24 +31,31 @@ struct TripListView: View {
                             .padding()
                         if $viewModel.list.count > 0 {
                             ForEach(0..<$viewModel.list.count) { idx in
-                                TripListViewCell(model: $viewModel.list[idx], selected: viewModel.selectedIndex == idx) { uuid in
-                                    withAnimation {
-                                        viewModel.selectedIndex = idx
-                                        viewModel.generateRouteInMap(idx)
-                                    }
-                                    
+                                TripListViewCell(model: $viewModel.list[idx], selected: viewModel.selectedIndex == idx) {
+                                    viewModel.generateRouteInMap(idx)
                                 }
                                 Divider()
                             }
-                        }else{
-                            VStack(alignment: .center) {
-                                ProgressView("Fetching...")
-                            }.frame(maxWidth: .infinity, minHeight: 150, alignment: .center)
                         }
                     }.frame(maxWidth: .infinity)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding(.bottom, 30)
+            }
+            
+            if !viewModel.detailData.name.isEmpty {
+                DetailView(data: $viewModel.detailData) {
+                    viewModel.detailData = (name: "", time: "", type: "")
+                }
+            }
+            
+            switch viewModel.stateEvents {
+            case .loading:
+                LoadingView()
+            case .error:
+                ErrorView(close: viewModel.getActionHiddenError())
+            case .normal:
+                EmptyView()
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
