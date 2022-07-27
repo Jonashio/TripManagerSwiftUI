@@ -24,40 +24,42 @@ final class ContactViewModel: NSObject, ObservableObject {
             }
         }
     }
-    private var dateTime = Date()
     
     func getNumberSaved(context: NSManagedObjectContext) -> Int {
-        let fetchRequest : NSFetchRequest<Contacts> = Contacts.fetchRequest()
-        
-        do {
-            let results: [Contacts] = try context.fetch(fetchRequest)
-            return results.count
-        } catch {}
-        
-        return 0
+        return Contacts.countElements(context)
     }
     
-    func validate() -> Bool {
+    private func validate() -> Bool {
         return (!name.isEmpty && !surname.isEmpty && !email.isEmpty && !comments.isEmpty)
     }
     
-    func saveData(context: NSManagedObjectContext) {
-        guard validate() else {
-            return
-        }
-        
+    func saveAndNotify(context: NSManagedObjectContext) -> Bool {
+        guard validate() else { return false }
+        guard saveForm(context) else { return false }
+        refreshBadgeIcon(context)
+        return true
+    }
+    
+    private func saveForm(_ context: NSManagedObjectContext) -> Bool {
         let contact = Contacts(context: context)
         contact.name = name
         contact.surname = surname
         contact.email = email
         contact.phone = phone
         contact.comments = comments
+        contact.date = Date()
 
         do {
             try context.save()
+            return true
         } catch {
             print("Error: \(error.localizedDescription)")
         }
+        
+        return false
     }
     
+    private func refreshBadgeIcon(_ context: NSManagedObjectContext) {
+        NotificationManager.refreshBadge(getNumberSaved(context: context))
+    }
 }

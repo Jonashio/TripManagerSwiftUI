@@ -43,7 +43,9 @@ struct ContactView: View {
                         
                         HStack {
                             Button(action: {
-                                viewModel.saveData(context: moc)
+                                if viewModel.saveAndNotify(context: moc) {
+                                    viewControllerHolder?.dismiss(animated: true)
+                                }
                             }) {
                                 Text("Enviar")
                             }.buttonStyle(PlainButtonStyle())

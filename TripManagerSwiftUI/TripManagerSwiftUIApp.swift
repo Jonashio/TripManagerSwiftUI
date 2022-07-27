@@ -13,6 +13,9 @@ struct TripManagerSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             TripListView()
+                .onAppear() {
+                    NotificationManager.requestPermission()
+                }
         }
     }
 }
