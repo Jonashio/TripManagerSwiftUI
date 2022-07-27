@@ -7,7 +7,12 @@
 import UIKit
 import UserNotifications
 
-struct NotificationManager {
+protocol NotificationManagerProtocol {
+    static func requestPermission()
+    static func refreshBadge(_ number: Int)
+}
+
+struct NotificationManager: NotificationManagerProtocol {
     static func requestPermission() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .sound]) { (granted, error) in }
     }

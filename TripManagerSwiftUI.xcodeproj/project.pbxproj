@@ -36,11 +36,14 @@
 		A10D6DD92890C41B00751F37 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD72890C41B00751F37 /* CoreDataStack.swift */; };
 		A10D6DDB2891226600751F37 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DDA2891226600751F37 /* NotificationManager.swift */; };
 		A10D6DDC2891226600751F37 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DDA2891226600751F37 /* NotificationManager.swift */; };
+		A10D6DDE289132CB00751F37 /* MockTripListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DDD289132CB00751F37 /* MockTripListDataSource.swift */; };
+		A10D6DDF2891381600751F37 /* TripListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB79288D4CB80080E7D7 /* TripListViewModel.swift */; };
+		A10D6DE028913AEC00751F37 /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA6289042E500751F37 /* CustomMapView.swift */; };
 		A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */; };
 		A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB49288D49C80080E7D7 /* Assets.xcassets */; };
 		A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */; };
-		A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */; };
-		A1F1FB61288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */; };
+		A1F1FB57288D49C80080E7D7 /* TripListViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB56288D49C80080E7D7 /* TripListViewModelSpec.swift */; };
+		A1F1FB61288D49C80080E7D7 /* ContactViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB60288D49C80080E7D7 /* ContactViewUITest.swift */; };
 		A1F1FB63288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */; };
 		A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB77288D4C780080E7D7 /* TripListView.swift */; };
 		A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB79288D4CB80080E7D7 /* TripListViewModel.swift */; };
@@ -127,14 +130,15 @@
 		A10D6DD12890B51100751F37 /* Contacts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A10D6DD72890C41B00751F37 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A10D6DDA2891226600751F37 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A10D6DDD289132CB00751F37 /* MockTripListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTripListDataSource.swift; sourceTree = "<group>"; };
 		A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripManagerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIApp.swift; sourceTree = "<group>"; };
 		A1F1FB49288D49C80080E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1F1FB52288D49C80080E7D7 /* TripManagerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUITests.swift; sourceTree = "<group>"; };
+		A1F1FB56288D49C80080E7D7 /* TripListViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewModelSpec.swift; sourceTree = "<group>"; };
 		A1F1FB5C288D49C80080E7D7 /* TripManagerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripManagerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITests.swift; sourceTree = "<group>"; };
+		A1F1FB60288D49C80080E7D7 /* ContactViewUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewUITest.swift; sourceTree = "<group>"; };
 		A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A1F1FB77288D4C780080E7D7 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
 		A1F1FB79288D4CB80080E7D7 /* TripListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewModel.swift; sourceTree = "<group>"; };
@@ -295,7 +299,8 @@
 		A1F1FB55288D49C80080E7D7 /* TripManagerSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A1F1FB56288D49C80080E7D7 /* TripManagerSwiftUITests.swift */,
+				A1F1FB56288D49C80080E7D7 /* TripListViewModelSpec.swift */,
+				A10D6DDD289132CB00751F37 /* MockTripListDataSource.swift */,
 			);
 			path = TripManagerSwiftUITests;
 			sourceTree = "<group>";
@@ -303,7 +308,7 @@
 		A1F1FB5F288D49C80080E7D7 /* TripManagerSwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A1F1FB60288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift */,
+				A1F1FB60288D49C80080E7D7 /* ContactViewUITest.swift */,
 				A1F1FB62288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = TripManagerSwiftUIUITests;
@@ -657,14 +662,17 @@
 				A10D6DAA2890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */,
 				A1F1FBC7288E1D4C0080E7D7 /* MapView.swift in Sources */,
 				A10D6DC228908ACA00751F37 /* ContactView.swift in Sources */,
-				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
+				A1F1FB57288D49C80080E7D7 /* TripListViewModelSpec.swift in Sources */,
+				A10D6DE028913AEC00751F37 /* CustomMapView.swift in Sources */,
 				A10D6DB22890666900751F37 /* Color+Extension.swift.swift in Sources */,
 				A10D6DD92890C41B00751F37 /* CoreDataStack.swift in Sources */,
 				A1F1FB8C288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
 				A10D6DCB2890A73D00751F37 /* UIViewController+Extension.swift in Sources */,
+				A10D6DDF2891381600751F37 /* TripListViewModel.swift in Sources */,
 				A10D6DDC2891226600751F37 /* NotificationManager.swift in Sources */,
 				A10D6DB8289075AF00751F37 /* ErrorView.swift in Sources */,
 				A10D6DC82890A65100751F37 /* EnvironmentValues+Extension.swift in Sources */,
+				A10D6DDE289132CB00751F37 /* MockTripListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +680,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1FB61288D49C80080E7D7 /* TripManagerSwiftUIUITests.swift in Sources */,
+				A1F1FB61288D49C80080E7D7 /* ContactViewUITest.swift in Sources */,
 				A1F1FB63288D49C80080E7D7 /* TripManagerSwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

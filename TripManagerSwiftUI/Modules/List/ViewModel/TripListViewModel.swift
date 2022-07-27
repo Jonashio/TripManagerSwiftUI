@@ -16,7 +16,7 @@ enum StateEvents {
 }
 
 final class TripListViewModel: NSObject, ObservableObject {
-    private let dataSource = TripListDataSource()
+    private var dataSource: TripListDataSourceProtocol
     
     @Published var stateEvents: StateEvents = .normal { didSet { objectWillChange.send() } }
     @Published var list = TripListModel()
@@ -25,6 +25,10 @@ final class TripListViewModel: NSObject, ObservableObject {
     @Published var detailData = (name: "", time: "", type: "")
     @Published var needMapRefresh = false
     @Published var showContactUs = false
+    
+    init(dataSource: TripListDataSourceProtocol = TripListDataSource()) {
+        self.dataSource = dataSource
+    }
 
     func generateRouteInMap(_ index: Int) {
         let trip = list[index]
@@ -70,7 +74,6 @@ final class TripListViewModel: NSObject, ObservableObject {
             case .error(_):
                 DispatchQueue.main.async { withAnimation { self.stateEvents = .error }}
             }
-            
         }
     }
     

@@ -13,6 +13,7 @@ struct ContactView: View {
         static let fontTitle = Font.custom("Muli-Bold", size: 20)
         static let fontBody = Font.custom("Muli-Light", size: 13)
     }
+    
     @Environment(\.viewController) private var viewControllerHolder: UIViewController?
     @Environment(\.managedObjectContext) private var moc
     @ObservedObject var viewModel = ContactViewModel()
@@ -47,14 +48,14 @@ struct ContactView: View {
                                     viewControllerHolder?.dismiss(animated: true)
                                 }
                             }) {
-                                Text("Enviar")
+                                Text("Send")
                             }.buttonStyle(PlainButtonStyle())
                             
                             Spacer()
                             Button(action: {
                                 viewControllerHolder?.dismiss(animated: true)
                             }) {
-                                Text("Cancelar")
+                                Text("Cancel")
                             }.buttonStyle(PlainButtonStyle())
                         }
                     }

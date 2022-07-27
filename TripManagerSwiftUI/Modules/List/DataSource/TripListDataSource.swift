@@ -7,7 +7,12 @@
 
 import Foundation
 
-final class TripListDataSource  {
+protocol TripListDataSourceProtocol {
+    func fetchRequest(completion: @escaping NTResponse<TripListModel>)
+    func fetchDetailRequest(params: NTParams, completion: @escaping NTResponse<StopExtensionModel>)
+}
+
+final class TripListDataSource: TripListDataSourceProtocol {
     
     private enum Keys {
         static let method: String = "api/trips"

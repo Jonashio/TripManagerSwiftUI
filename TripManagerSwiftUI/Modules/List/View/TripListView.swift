@@ -36,22 +36,8 @@ struct TripListView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding(.bottom, 30)
             }
-            VStack {
-                HStack {
-                    Spacer()
-                    Button {
-                        gotoContactUs()
-                    } label: {
-                        Image("contact")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 50, height: 50)
-                    }.buttonStyle(PlainButtonStyle())
-
-                }
-                Spacer()
-            }.padding(EdgeInsets(top: 30, leading: 0, bottom: 0, trailing: 30))
             
+            buildButtonContactUs()
             buildDetail()
             buildStateBuildEvents()
         }
@@ -94,6 +80,25 @@ struct TripListView: View {
                 EmptyView()
             }
         }
+    }
+    private func buildButtonContactUs() -> some View {
+        VStack {
+            HStack {
+                Spacer()
+                Button {
+                    gotoContactUs()
+                } label: {
+                    Image("contact")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50)
+                }
+                .buttonStyle(PlainButtonStyle())
+                .tag("ContactUs")
+
+            }
+            Spacer()
+        }.padding(EdgeInsets(top: 30, leading: 0, bottom: 0, trailing: 30))
     }
     
     private func gotoContactUs() {
