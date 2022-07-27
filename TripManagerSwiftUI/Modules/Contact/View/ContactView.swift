@@ -19,7 +19,7 @@ struct ContactView: View {
     @ObservedObject var viewModel = ContactViewModel()
     
     var body: some View {
-        ZStack() {
+        ZStack {
             VStack(spacing: 0) {
                 Form {
                     Section(header: Text("Contact (\(viewModel.getNumberSaved(context: moc)) saved)").padding(.top,20)) {

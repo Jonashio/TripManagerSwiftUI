@@ -23,7 +23,7 @@ struct DetailView: View {
         } label: {
             VStack(spacing: 0) {
                 Spacer()
-                VStack(alignment: .center,spacing: 0) {
+                VStack(alignment: .center, spacing: 0) {
                     Text(data.type)
                         .font(Constants.fontTitle)
                         .padding(.all, 20)
