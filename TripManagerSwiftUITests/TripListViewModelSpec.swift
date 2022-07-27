@@ -61,6 +61,4 @@ class TripListViewModelSpec: XCTestCase {
 
         wait(for: [expectation], timeout: 1)
     }
-    
-    
 }

@@ -94,7 +94,7 @@ struct TripListViewCell: View {
         guard var stops = model.stops else { return "" }
         stops.removeAll(where: { $0.id == nil })
         
-        if stops.count > 0 {
+        if !stops.isEmpty {
             return "(\(stops.count) Stops)"
         }
         
@@ -104,6 +104,7 @@ struct TripListViewCell: View {
 
 struct TripListViewCell_Previews: PreviewProvider {
     static var previews: some View {
+        // swiftlint:disable line_length
         TripListViewCell(model: .constant(TripModel(status: nil, stops: nil, origin: nil, startTime: "2018-12-18T08:00:00.000Z", tripModelDescription: nil, endTime: "2018-12-18T09:00:00.000Z", route: nil, destination: nil, driverName: "Jona")), selected: false) {}
     }
 }

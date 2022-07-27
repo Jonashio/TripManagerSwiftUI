@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E98556840F0856168B7B55E /* Pods_TripManagerSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9CAA6B2024E2C3713F3C75 /* Pods_TripManagerSwiftUITests.framework */; };
+		8BB8F9A542B7DBA460DDB439 /* Pods_TripManagerSwiftUI_TripManagerSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F9146DBEB8EFC3DE99CAA /* Pods_TripManagerSwiftUI_TripManagerSwiftUIUITests.framework */; };
+		920B829C209257FAD6C60822 /* Pods_TripManagerSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD04F5E3FC8FDBC61FEC7FE4 /* Pods_TripManagerSwiftUI.framework */; };
 		A10D6DA7289042E500751F37 /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA6289042E500751F37 /* CustomMapView.swift */; };
 		A10D6DA92890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */; };
 		A10D6DAA2890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */; };
@@ -115,6 +118,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AD266EB12ABC69E51CBAAAB /* Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests/Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		343EC1153FF0D84C674EA045 /* Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests/Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5502EB15C9A1AA69234E84AE /* Pods-TripManagerSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripManagerSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-TripManagerSwiftUI/Pods-TripManagerSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		8A8F9146DBEB8EFC3DE99CAA /* Pods_TripManagerSwiftUI_TripManagerSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripManagerSwiftUI_TripManagerSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF175A0428B8FA35D5876C7 /* Pods-TripManagerSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripManagerSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-TripManagerSwiftUITests/Pods-TripManagerSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A10D6DA6289042E500751F37 /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
 		A10D6DA82890431200751F37 /* MapViewAnnotationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAnnotationProtocol.swift; sourceTree = "<group>"; };
 		A10D6DAD289064DA00751F37 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -167,6 +175,10 @@
 		A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
 		A1F1FBC5288E1D4C0080E7D7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BBBC87A80A03214CE84DBFE7 /* Pods-TripManagerSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripManagerSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-TripManagerSwiftUI/Pods-TripManagerSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		DADAE17A812067E28310515C /* Pods-TripManagerSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripManagerSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-TripManagerSwiftUITests/Pods-TripManagerSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD04F5E3FC8FDBC61FEC7FE4 /* Pods_TripManagerSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripManagerSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9CAA6B2024E2C3713F3C75 /* Pods_TripManagerSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripManagerSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920B829C209257FAD6C60822 /* Pods_TripManagerSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E98556840F0856168B7B55E /* Pods_TripManagerSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +202,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB8F9A542B7DBA460DDB439 /* Pods_TripManagerSwiftUI_TripManagerSwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38AACA4D230C83575B5D6EF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC87A80A03214CE84DBFE7 /* Pods-TripManagerSwiftUI.debug.xcconfig */,
+				5502EB15C9A1AA69234E84AE /* Pods-TripManagerSwiftUI.release.xcconfig */,
+				343EC1153FF0D84C674EA045 /* Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.debug.xcconfig */,
+				2AD266EB12ABC69E51CBAAAB /* Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.release.xcconfig */,
+				DADAE17A812067E28310515C /* Pods-TripManagerSwiftUITests.debug.xcconfig */,
+				8DF175A0428B8FA35D5876C7 /* Pods-TripManagerSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A10D6DAB289064B000751F37 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +290,8 @@
 				A1F1FB55288D49C80080E7D7 /* TripManagerSwiftUITests */,
 				A1F1FB5F288D49C80080E7D7 /* TripManagerSwiftUIUITests */,
 				A1F1FB43288D49C70080E7D7 /* Products */,
+				38AACA4D230C83575B5D6EF0 /* Pods */,
+				CA7BAB40BC423FAAD21DCEF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -452,6 +482,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CA7BAB40BC423FAAD21DCEF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD04F5E3FC8FDBC61FEC7FE4 /* Pods_TripManagerSwiftUI.framework */,
+				8A8F9146DBEB8EFC3DE99CAA /* Pods_TripManagerSwiftUI_TripManagerSwiftUIUITests.framework */,
+				FC9CAA6B2024E2C3713F3C75 /* Pods_TripManagerSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -459,6 +499,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F1FB66288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUI" */;
 			buildPhases = (
+				A1C5495628918A0A00BB5AF7 /* Run Lint */,
+				FF301C6AA71126F1A796769F /* [CP] Check Pods Manifest.lock */,
 				A1F1FB3E288D49C70080E7D7 /* Sources */,
 				A1F1FB3F288D49C70080E7D7 /* Frameworks */,
 				A1F1FB40288D49C70080E7D7 /* Resources */,
@@ -476,6 +518,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F1FB69288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUITests" */;
 			buildPhases = (
+				2DC39A1F463350918FC08164 /* [CP] Check Pods Manifest.lock */,
 				A1F1FB4E288D49C80080E7D7 /* Sources */,
 				A1F1FB4F288D49C80080E7D7 /* Frameworks */,
 				A1F1FB50288D49C80080E7D7 /* Resources */,
@@ -494,6 +537,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F1FB6C288D49C80080E7D7 /* Build configuration list for PBXNativeTarget "TripManagerSwiftUIUITests" */;
 			buildPhases = (
+				91AC59846C74EC3A06467AC0 /* [CP] Check Pods Manifest.lock */,
 				A1F1FB58288D49C80080E7D7 /* Sources */,
 				A1F1FB59288D49C80080E7D7 /* Frameworks */,
 				A1F1FB5A288D49C80080E7D7 /* Resources */,
@@ -604,6 +648,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DC39A1F463350918FC08164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripManagerSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91AC59846C74EC3A06467AC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C5495628918A0A00BB5AF7 /* Run Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		FF301C6AA71126F1A796769F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripManagerSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1F1FB3E288D49C70080E7D7 /* Sources */ = {
@@ -817,6 +948,7 @@
 		};
 		A1F1FB67288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBC87A80A03214CE84DBFE7 /* Pods-TripManagerSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -846,6 +978,7 @@
 		};
 		A1F1FB68288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5502EB15C9A1AA69234E84AE /* Pods-TripManagerSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -875,6 +1008,7 @@
 		};
 		A1F1FB6A288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAE17A812067E28310515C /* Pods-TripManagerSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -894,6 +1028,7 @@
 		};
 		A1F1FB6B288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF175A0428B8FA35D5876C7 /* Pods-TripManagerSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -913,6 +1048,7 @@
 		};
 		A1F1FB6D288D49C80080E7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343EC1153FF0D84C674EA045 /* Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -930,6 +1066,7 @@
 		};
 		A1F1FB6E288D49C80080E7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD266EB12ABC69E51CBAAAB /* Pods-TripManagerSwiftUI-TripManagerSwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,8 +8,6 @@
 import Foundation
 import SwiftUI
 
-
-
 extension EnvironmentValues {
     var viewController: UIViewController? {
         get { return self[ViewControllerKey.self].value }

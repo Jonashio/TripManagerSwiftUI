@@ -43,13 +43,14 @@ struct TripListView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .edgesIgnoringSafeArea(.all)
-        .onAppear() {
+        .onAppear {
             viewModel.fetch()
         }
     }
     
+    // swiftlint:disable empty_count
     private func buildList() -> some View {
-        VStack() {
+        VStack {
             if $viewModel.list.count > 0 {
                 ForEach(0..<viewModel.list.count, id: \.self) { idx in
                     TripListViewCell(model: $viewModel.list[idx], selected: viewModel.selectedIndex == idx) {
@@ -62,7 +63,7 @@ struct TripListView: View {
     }
     
     private func buildDetail() -> some View {
-        VStack() {
+        VStack {
             if !viewModel.detailData.name.isEmpty {
                 DetailView(data: $viewModel.detailData, close: viewModel.closeDetail())
             }
@@ -70,7 +71,7 @@ struct TripListView: View {
     }
     
     private func buildStateBuildEvents() -> some View {
-        VStack() {
+        VStack {
             switch viewModel.stateEvents {
             case .loading:
                 LoadingView()

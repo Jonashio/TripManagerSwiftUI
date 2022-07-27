@@ -6,7 +6,7 @@
 //
 
 import XCTest
-
+// swiftlint:disable type_name
 class TripManagerSwiftUIUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
