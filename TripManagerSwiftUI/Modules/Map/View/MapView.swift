@@ -28,16 +28,17 @@ struct MapView: UIViewRepresentable {
     func updateUIView(_ uiView: CustomMapView, context: UIViewRepresentableContext<MapView>) {
         
         if !routesLocation.isEmpty && needRefresh {
-            print("jonas modificamos el routesLocation \(routesLocation.count)")
             needRefresh.toggle()
-            
+            // stores
             var poinsAnnotation = [MKPointAnnotation]()
             var placeMarks = [MKPlacemark]()
             var requests = [MKDirections.Request]()
             
+            // reset
             uiView.removeAnnotations(uiView.annotations)
             uiView.removeOverlays(uiView.overlays)
             
+            // save pointAnnotation & put it in map & placemark
             routesLocation.forEach { point in
                 let requestAnnotation = MKPointAnnotation()
                 requestAnnotation.coordinate = point
@@ -46,7 +47,7 @@ struct MapView: UIViewRepresentable {
                 
                 placeMarks.append(MKPlacemark(coordinate: point))
             }
-            
+            // saver direction
             for (index, element) in placeMarks.enumerated() {
                 if index < (placeMarks.count - 1) {
                     let destinationPlacemark = placeMarks[index+1]
@@ -58,6 +59,7 @@ struct MapView: UIViewRepresentable {
                 }
             }
             
+            // calculate region
             if let pointFirst = routesLocation.first, let pointLast = routesLocation.last {
                 let first = MKMapPoint(pointFirst)
                 let last = MKMapPoint(pointLast)
@@ -74,6 +76,7 @@ struct MapView: UIViewRepresentable {
                 }
             }
             
+            // call to load route in map
             requests.forEach { request in
                 let directions = MKDirections(request: request)
                 directions.calculate { response, error in

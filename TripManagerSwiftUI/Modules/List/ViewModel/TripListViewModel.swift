@@ -24,6 +24,7 @@ final class TripListViewModel: NSObject, ObservableObject {
     @Published var routesLocation: [CLLocationCoordinate2D] = []
     @Published var detailData = (name: "", time: "", type: "")
     @Published var needMapRefresh = false
+    @Published var showContactUs = false
 
     func generateRouteInMap(_ index: Int) {
         let trip = list[index]
@@ -39,9 +40,6 @@ final class TripListViewModel: NSObject, ObservableObject {
         trip.stops?.forEach({ stopPoint in
             if let point = buildCoordinate(stopPoint.point) {
                 locations.append(point)
-            } else {
-                DispatchQueue.main.async { withAnimation { self.stateEvents = .error }}
-                return
             }
         })
         locations.append(destinationPoint)
@@ -109,7 +107,11 @@ final class TripListViewModel: NSObject, ObservableObject {
     }
 }
 extension TripListViewModel {
-    func getActionHiddenError() -> ()->Void {
+    func closeError() -> ()->Void {
         return {withAnimation { self.stateEvents = .normal}}
+    }
+    
+    func closeDetail() -> ()->Void {
+        return {self.detailData = (name: "", time: "", type: "")}
     }
 }

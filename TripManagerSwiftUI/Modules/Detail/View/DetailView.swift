@@ -46,7 +46,7 @@ struct DetailView: View {
                 Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(hex: "000000", alpha: 0.5))
+            .background(Blur(style: .regular))
         }.buttonStyle(PlainButtonStyle())
 
     }

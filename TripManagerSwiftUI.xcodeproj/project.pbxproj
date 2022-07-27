@@ -18,6 +18,24 @@
 		A10D6DB52890748D00751F37 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB32890748D00751F37 /* LoadingView.swift */; };
 		A10D6DB7289075AF00751F37 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB6289075AF00751F37 /* ErrorView.swift */; };
 		A10D6DB8289075AF00751F37 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DB6289075AF00751F37 /* ErrorView.swift */; };
+		A10D6DBB2890845B00751F37 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DBA2890845B00751F37 /* Blur.swift */; };
+		A10D6DBC2890845B00751F37 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DBA2890845B00751F37 /* Blur.swift */; };
+		A10D6DC128908ACA00751F37 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC028908ACA00751F37 /* ContactView.swift */; };
+		A10D6DC228908ACA00751F37 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC028908ACA00751F37 /* ContactView.swift */; };
+		A10D6DC428908CA500751F37 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC328908CA500751F37 /* ContactViewModel.swift */; };
+		A10D6DC528908CA500751F37 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC328908CA500751F37 /* ContactViewModel.swift */; };
+		A10D6DC72890A65100751F37 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC62890A65100751F37 /* EnvironmentValues+Extension.swift */; };
+		A10D6DC82890A65100751F37 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC62890A65100751F37 /* EnvironmentValues+Extension.swift */; };
+		A10D6DCA2890A73D00751F37 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC92890A73D00751F37 /* UIViewController+Extension.swift */; };
+		A10D6DCB2890A73D00751F37 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DC92890A73D00751F37 /* UIViewController+Extension.swift */; };
+		A10D6DCF2890B3D800751F37 /* main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DCD2890B3D800751F37 /* main.xcdatamodeld */; };
+		A10D6DD02890B3D800751F37 /* main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DCD2890B3D800751F37 /* main.xcdatamodeld */; };
+		A10D6DD32890B51100751F37 /* Contacts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD12890B51100751F37 /* Contacts+CoreDataClass.swift */; };
+		A10D6DD42890B51100751F37 /* Contacts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD12890B51100751F37 /* Contacts+CoreDataClass.swift */; };
+		A10D6DD52890B51100751F37 /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD22890B51100751F37 /* Contacts+CoreDataProperties.swift */; };
+		A10D6DD62890B51100751F37 /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD22890B51100751F37 /* Contacts+CoreDataProperties.swift */; };
+		A10D6DD82890C41B00751F37 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD72890C41B00751F37 /* CoreDataStack.swift */; };
+		A10D6DD92890C41B00751F37 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D6DD72890C41B00751F37 /* CoreDataStack.swift */; };
 		A1F1FB46288D49C70080E7D7 /* TripManagerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */; };
 		A1F1FB4A288D49C80080E7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB49288D49C80080E7D7 /* Assets.xcassets */; };
 		A1F1FB4D288D49C80080E7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F1FB4C288D49C80080E7D7 /* Preview Assets.xcassets */; };
@@ -100,6 +118,15 @@
 		A10D6DB02890666900751F37 /* Color+Extension.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift.swift"; sourceTree = "<group>"; };
 		A10D6DB32890748D00751F37 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		A10D6DB6289075AF00751F37 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		A10D6DBA2890845B00751F37 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		A10D6DC028908ACA00751F37 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		A10D6DC328908CA500751F37 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		A10D6DC62890A65100751F37 /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
+		A10D6DC92890A73D00751F37 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		A10D6DCE2890B3D800751F37 /* main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = main.xcdatamodel; sourceTree = "<group>"; };
+		A10D6DD12890B51100751F37 /* Contacts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A10D6DD22890B51100751F37 /* Contacts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A10D6DD72890C41B00751F37 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A1F1FB42288D49C70080E7D7 /* TripManagerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripManagerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F1FB45288D49C70080E7D7 /* TripManagerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManagerSwiftUIApp.swift; sourceTree = "<group>"; };
 		A1F1FB49288D49C80080E7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -184,8 +211,45 @@
 			children = (
 				A10D6DB6289075AF00751F37 /* ErrorView.swift */,
 				A10D6DB32890748D00751F37 /* LoadingView.swift */,
+				A10D6DBA2890845B00751F37 /* Blur.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A10D6DBD28908A9000751F37 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DBF28908AAA00751F37 /* ViewModel */,
+				A10D6DBE28908AA200751F37 /* View */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		A10D6DBE28908AA200751F37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DC028908ACA00751F37 /* ContactView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A10D6DBF28908AAA00751F37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DC328908CA500751F37 /* ContactViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A10D6DCC2890B38600751F37 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A10D6DD12890B51100751F37 /* Contacts+CoreDataClass.swift */,
+				A10D6DD22890B51100751F37 /* Contacts+CoreDataProperties.swift */,
+				A10D6DCD2890B3D800751F37 /* main.xcdatamodeld */,
+				A10D6DD72890C41B00751F37 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		A1F1FB39288D49C70080E7D7 = {
@@ -249,6 +313,8 @@
 		A1F1FB6F288D4AF60080E7D7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A10D6DCC2890B38600751F37 /* CoreData */,
+				A10D6DBD28908A9000751F37 /* Contact */,
 				A10D6DAB289064B000751F37 /* Detail */,
 				A1F1FBC3288E1D2F0080E7D7 /* Map */,
 				A1F1FB85288D77B30080E7D7 /* Extension */,
@@ -320,6 +386,8 @@
 				A1F1FBC0288DAC430080E7D7 /* Locale+Extension.swift */,
 				A1F1FBC8288EF3A00080E7D7 /* UIColor+Extension.swift */,
 				A10D6DB02890666900751F37 /* Color+Extension.swift.swift */,
+				A10D6DC62890A65100751F37 /* EnvironmentValues+Extension.swift */,
+				A10D6DC92890A73D00751F37 /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -537,11 +605,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10D6DCA2890A73D00751F37 /* UIViewController+Extension.swift in Sources */,
 				A1F1FB78288D4C780080E7D7 /* TripListView.swift in Sources */,
+				A10D6DC428908CA500751F37 /* ContactViewModel.swift in Sources */,
 				A1F1FBC6288E1D4C0080E7D7 /* MapView.swift in Sources */,
+				A10D6DBB2890845B00751F37 /* Blur.swift in Sources */,
 				A10D6DB7289075AF00751F37 /* ErrorView.swift in Sources */,
+				A10D6DC128908ACA00751F37 /* ContactView.swift in Sources */,
+				A10D6DD82890C41B00751F37 /* CoreDataStack.swift in Sources */,
 				A1F1FB8E288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
 				A1F1FBC1288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
+				A10D6DCF2890B3D800751F37 /* main.xcdatamodeld in Sources */,
+				A10D6DD32890B51100751F37 /* Contacts+CoreDataClass.swift in Sources */,
+				A10D6DD52890B51100751F37 /* Contacts+CoreDataProperties.swift in Sources */,
 				A10D6DB12890666900751F37 /* Color+Extension.swift.swift in Sources */,
 				A10D6DA7289042E500751F37 /* CustomMapView.swift in Sources */,
 				A1F1FB87288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
@@ -552,6 +628,7 @@
 				A1F1FBBE288DABA10080E7D7 /* Date+Extension.swift in Sources */,
 				A1F1FB7A288D4CB80080E7D7 /* TripListViewModel.swift in Sources */,
 				A1F1FB83288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
+				A10D6DC72890A65100751F37 /* EnvironmentValues+Extension.swift in Sources */,
 				A1F1FBC9288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */,
 				A1F1FB7C288D58370080E7D7 /* TripsModel.swift in Sources */,
 				A1F1FB8B288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
@@ -565,20 +642,29 @@
 			files = (
 				A1F1FB88288D77CD0080E7D7 /* URLRequest+Extension.swift in Sources */,
 				A1F1FBC2288DAC430080E7D7 /* Locale+Extension.swift in Sources */,
+				A10D6DD62890B51100751F37 /* Contacts+CoreDataProperties.swift in Sources */,
 				A1F1FB8F288DA7AA0080E7D7 /* String+Extension.swift in Sources */,
 				A1F1FBCA288EF3A00080E7D7 /* UIColor+Extension.swift in Sources */,
 				A1F1FB84288D5AFE0080E7D7 /* NetworkUtils.swift in Sources */,
+				A10D6DD42890B51100751F37 /* Contacts+CoreDataClass.swift in Sources */,
 				A1F1FB80288D58F90080E7D7 /* TripListDataSource.swift in Sources */,
+				A10D6DBC2890845B00751F37 /* Blur.swift in Sources */,
 				A1F1FB7D288D58370080E7D7 /* TripsModel.swift in Sources */,
+				A10D6DD02890B3D800751F37 /* main.xcdatamodeld in Sources */,
+				A10D6DC528908CA500751F37 /* ContactViewModel.swift in Sources */,
 				A10D6DAF289064DA00751F37 /* DetailView.swift in Sources */,
 				A10D6DB52890748D00751F37 /* LoadingView.swift in Sources */,
 				A1F1FBBF288DABA10080E7D7 /* Date+Extension.swift in Sources */,
 				A10D6DAA2890431200751F37 /* MapViewAnnotationProtocol.swift in Sources */,
 				A1F1FBC7288E1D4C0080E7D7 /* MapView.swift in Sources */,
+				A10D6DC228908ACA00751F37 /* ContactView.swift in Sources */,
 				A1F1FB57288D49C80080E7D7 /* TripManagerSwiftUITests.swift in Sources */,
 				A10D6DB22890666900751F37 /* Color+Extension.swift.swift in Sources */,
+				A10D6DD92890C41B00751F37 /* CoreDataStack.swift in Sources */,
 				A1F1FB8C288DA0240080E7D7 /* TripListViewCell.swift in Sources */,
+				A10D6DCB2890A73D00751F37 /* UIViewController+Extension.swift in Sources */,
 				A10D6DB8289075AF00751F37 /* ErrorView.swift in Sources */,
+				A10D6DC82890A65100751F37 /* EnvironmentValues+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,6 +977,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A10D6DCD2890B3D800751F37 /* main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A10D6DCE2890B3D800751F37 /* main.xcdatamodel */,
+			);
+			currentVersion = A10D6DCE2890B3D800751F37 /* main.xcdatamodel */;
+			path = main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1F1FB3A288D49C70080E7D7 /* Project object */;
 }
